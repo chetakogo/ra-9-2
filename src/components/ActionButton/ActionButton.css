@@ -1,0 +1,22 @@
+.actions-button {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+  
+  .actions-button:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+  }
+  
+  .primary-button {
+    background-color: rgb(88, 156, 238);
+  }
+  
+  .remove-button {
+    background-color: rgb(214, 62, 62);
+  }

@@ -1,0 +1,35 @@
+.ViewPostCard {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #fff;
+  }
+  
+  .ViewPostCard-content {
+    padding: 14px 10px;
+    text-indent: 20px;
+    border-bottom: 1px solid #cacaca;
+  }
+  
+  .ViewPostCard-actions {
+    text-align: right;
+    padding: 10px 10px 0 10px;
+  }
+  
+  .ViewPostCard-actions > *:nth-child(n+2) {
+    margin-left: 16px;
+  }
+  
+  .ViewPostCard-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-image: url(../../assets/close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
